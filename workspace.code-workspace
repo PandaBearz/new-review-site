@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "nucampsite",
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"navbar",
+			"nucamp"
+		]
+	}
+}
