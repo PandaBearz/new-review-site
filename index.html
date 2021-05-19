@@ -73,12 +73,12 @@
                                     Campsite Type
                                 </label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-secondary bg-success active">
-                                        <input class="btn btn-primary" type="radio" name="siteType" id="siteTent"
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="siteType" id="siteTent"
                                             autocomplete="off" checked>Tent
                                     </label>
-                                    <label class="btn btn-secondary bg-primary">
-                                        <input class="btn btn-primary" type="radio" name="siteType" id="siteRv"
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="siteType" id="siteRv"
                                             autocomplete="off">RV
                                     </label>
                                 </div>
@@ -86,9 +86,9 @@
 
                             <div class='row form-group'>
                                 <div class='col'>
-                                    <button class="btn text-white bg-secondary" data-dismiss="modal"
+                                    <button class="btn btn-secondary" data-dismiss="modal"
                                         type='button'>Cancel</button>
-                                    <button class="btn text-white bg-primary" type='submit'>Search</button>
+                                    <button class="btn btn-primary" type='submit'>Search</button>
                                 </div>
                             </div>
                         </form>
@@ -165,7 +165,7 @@
     <div class="container">
 
         <div class="row row-content">
-            <div class='col'>
+            <div class='col-md-8 mx-auto'>
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -309,22 +309,7 @@
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-        <script>
-            $(function() {
-                $(".carousel").carousel( { interval: 2000, pause: "false" } );
-                $("#carouselButton").click(function(){
-                    if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                        $(".carousel").carousel("pause");
-                        $("#carouselButton").children("i").removeClass("fa-pause");
-                        $("#carouselButton").children("i").addClass("fa-play");
-                    } else {
-                        $(".carousel").carousel("cycle");
-                        $("#carouselButton").children("i").removeClass("fa-play");
-                        $("#carouselButton").children("i").addClass("fa-pause"); 
-                    }
-                });
-            });
-        </script>
+        <script src="js/scripts.js" ></script>
 
     </body>
 
