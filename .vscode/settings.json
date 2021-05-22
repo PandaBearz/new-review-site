@@ -9,7 +9,16 @@
         "html"
     ],
     "cSpell.ignoreWords": [
+        "button",
         "css",
-        "nucamp"
+        "eserve",
+        "modal",
+        "nucamp",
+        "reserve"
+    ],
+    "cSpell.words": [
+        "modal",
+        "nucamp",
+        "reserve"
     ]
 }
